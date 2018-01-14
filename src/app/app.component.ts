@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
 
   public title;
   constructor() {
-    this.title = "Angular Raygun App"
+    this.title = "Angular Raygun Apps"
   }
 
   ngOnInit() {
