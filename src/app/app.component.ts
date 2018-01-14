@@ -9,7 +9,10 @@ import * as rg4js from 'raygun4js';
 })
 export class AppComponent implements OnInit {
 
-  constructor() {}
+  public title;
+  constructor() {
+    this.title = "Angular Raygun App"
+  }
 
   ngOnInit() {
     /*
